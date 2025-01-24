@@ -73,7 +73,7 @@ We all thrive on collaboration! If you have suggestions, bug reports, or want to
 
 ## About me
 
-Got questions, feedback, or just want to say hi? Reach out to **Lakshman Turlapati** at [Audienclature](https://www.audienclature.com).
+Got questions, feedback, or just want to say hi? Reach out at [Audienclature](https://www.audienclature.com).
 
 ---
 
