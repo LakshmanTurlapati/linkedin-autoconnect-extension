@@ -34,7 +34,7 @@ html, body {
 }
 
 /* Shuffle button with reduced width and glass shine effect */
-.popup-container button {
+.popup-container button#shuffle-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,8 +53,8 @@ html, body {
   transition: all 0.3s ease-in-out;
 }
 
-/* Glass mirror effect on hover */
-.popup-container button::before {
+/* Glass mirror effect on hover for shuffle button */
+.popup-container button#shuffle-btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -70,15 +70,65 @@ html, body {
   transition: left 0.8s ease-in-out;
 }
 
-.popup-container button:hover::before {
+.popup-container button#shuffle-btn:hover::before {
   left: 100%;
 }
 
-.popup-container button:hover {
+.popup-container button#shuffle-btn:hover {
   background-color: #005582;
   transform: scale(1.05);
 }
 
+/* Upload button styling */
+.popup-container button#upload-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%; /* Reduced by 20% */
+  padding: 12px;
+  background-color: white;
+  color: black;
+  border: solid #0073b1;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.popup-container button#upload-btn:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+/* Glass mirror effect on hover for upload button */
+.popup-container button#upload-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: left 0.8s ease-in-out;
+}
+
+.popup-container button#upload-btn:hover::before {
+  left: 100%;
+}
+
+.popup-container button#upload-btn:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
 /* Font Awesome Icon */
 .popup-container i {
   font-size: 18px;
