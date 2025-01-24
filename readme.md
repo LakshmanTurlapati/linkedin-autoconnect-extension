@@ -4,7 +4,7 @@
 
 *Because who has time to craft every single LinkedIn connection request?* 😉 
 
-Welcome to the **LinkedIn AutoConnect Extension**, your sleek and sassy sidekick for expanding your professional network effortlessly. Crafted with brilliance (and a dash of sass) by **Lakshman Turlapati**, this Chrome extension is here to transform the way you connect on LinkedIn.
+Welcome to the **LinkedIn AutoConnect Extension**, your sidekick for expanding your professional network effortlessly, this Chrome extension is here to transform the way you connect on LinkedIn.
 
 ## 🌟 Features
 
@@ -60,7 +60,7 @@ Dive under the hood and see the magic behind the curtain:
 
 ## 🤝 Contributing
 
-We thrive on collaboration! If you have suggestions, bug reports, or want to contribute, check out our [GitHub Repository](https://github.com/LakshmanTurlapati) and let's make this tool even better together.
+We all thrive on collaboration! If you have suggestions, bug reports, or want to contribute, check out my [GitHub Repository](https://github.com/LakshmanTurlapati) and let's make this tool even better together.
 
 ### How to Contribute
 
