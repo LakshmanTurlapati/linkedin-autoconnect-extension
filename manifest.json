@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "LinkedIn Auto Connect",
     "description": "Automatically fills personalized LinkedIn connection requests with predefined templates.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author":"Lakshman Turlapati",
     "icons": {
       "16": "icons/icon16.png",
